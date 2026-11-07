@@ -39,8 +39,6 @@ Em desenvolvimento não é preciso configurar nada: o Vite encaminha `/api` para
 - **Pasta de saída:** `dist`
 - **Variável:** `VITE_API_URL` com a URL da API
 
-Depois do deploy, coloque a URL do front no `CORS_ORIGIN` da API.
-
 ## Estrutura
 
 ```
