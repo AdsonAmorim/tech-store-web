@@ -51,4 +51,8 @@ src/
   components/
     ProductCard.jsx
     CartDrawer.jsx
+    ChatWidget.jsx      # o widget flutuante: chama POST /api/chat e mostra os carrinhos sugeridos
+    RichText.jsx        # markdown simples nas respostas
 ```
+
+O widget não guarda nenhuma chave. Ele só envia o texto da conversa para a API, e quem fala com o Claude é a **techstore-api**, onde fica a `ANTHROPIC_API_KEY`.

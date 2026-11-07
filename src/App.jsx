@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import ProductCard from './components/ProductCard.jsx';
 import CartDrawer from './components/CartDrawer.jsx';
+import ChatWidget from './components/ChatWidget.jsx';
 import { useCart } from './CartContext.jsx';
 import { CATEGORY_LABELS } from './format.js';
 import { apiUrl } from './api.js';
@@ -62,6 +63,7 @@ export default function App() {
       </main>
 
       <CartDrawer />
+      <ChatWidget />
     </>
   );
 }
