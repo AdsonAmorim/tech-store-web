@@ -2,7 +2,7 @@
 
 Front da TechStore, o mini e-commerce de hardware da oficina **"Construindo um agente de IA dentro de um e-commerce"**. É feito em React com Vite.
 
-A API fica no repositório **techstore-api**.
+A API fica no repositório **tech-store-api**.
 
 ## Branches
 
@@ -15,7 +15,7 @@ O carrinho (`src/CartContext.jsx`) já expõe `addMany(produtos)`, que é o ganc
 
 ## Rodando localmente
 
-Suba a **techstore-api** na porta 3001 e depois:
+Suba a **tech-store-api** na porta 3001 e depois:
 
 ```bash
 npm install
@@ -28,7 +28,7 @@ Em desenvolvimento não é preciso configurar nada: o Vite encaminha `/api` para
 
 | Variável | Obrigatória | Exemplo | Para que serve |
 |---|---|---|---|
-| `VITE_API_URL` | **sim, em produção** | `https://techstore-api.onrender.com` | URL pública da API, sem barra no final. |
+| `VITE_API_URL` | **sim, em produção** | `https://tech-store-api.onrender.com` | URL pública da API, sem barra no final. |
 
 > A `VITE_API_URL` é embutida no código **no momento do build**. Se mudar o valor no painel do deploy, faça um novo deploy.
 
